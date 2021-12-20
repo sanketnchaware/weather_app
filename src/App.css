@@ -1,0 +1,143 @@
+* {
+
+  box-sizing: border-box;
+  font-family: cursive;
+  color: white;
+  font-size: 1.2rem;
+
+
+}
+
+
+
+#heading {
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 0px 0px 10px black;
+  font-size: 2rem;
+
+}
+
+.App {
+  background-color: rgba(67, 67, 250, 0.383);
+  width: 70%;
+  box-shadow: 0px 0px 50px white;
+  margin: auto;
+  height: 100%;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.inp {
+  display: flex;
+  flex-direction: column;
+}
+
+.inp input[type="text"],
+.inp input[type="submit"] {
+  font-size: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  background-color: rgba(67, 67, 250, 0.637);
+  box-shadow: 0px 0px 5px white;
+
+}
+
+
+
+.data,
+.condition,
+.more {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  ;
+  margin-bottom: 1rem;
+
+
+
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+
+
+
+
+body {
+  background: url("https://images.unsplash.com/photo-1579689189009-874f5cac2db5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=704&q=80");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 1rem;
+
+
+}
+
+.location {
+  background-color: rgba(67, 67, 250, 0.637);
+  box-shadow: 0px 0px 5px white;
+  border-radius: 10px;
+  padding: 0.5rem;
+
+
+
+}
+
+input[type="submit"] {
+  cursor: pointer;
+}
+
+input :hover {
+  font-size: 0.5rem;
+}
+
+.condition {
+  background-color: rgba(67, 67, 250, 0.637);
+  box-shadow: 0px 0px 5px white;
+  border-radius: 10px;
+
+
+}
+
+h3 {
+  margin: 5px;
+}
+
+.more {
+  background-color: rgba(67, 67, 250, 0.637);
+  box-shadow: 0px 0px 5px white;
+  border-radius: 10px;
+}
+
+.more h3 {
+  border-right: 1px solid white;
+  padding: 5px;
+}
+
+.footer {
+  width: 20%;
+  margin:0 auto;
+  position: fixed;
+  bottom: 0;
+
+  
+  
+  color: white;
+  background-color: rgba(67, 67, 250, 0.637);
+  box-shadow: 0px 0px 5px white;
+border-radius: 10px;
+padding: 5px;
+  right: 40%;
+  font-size:0.8rem;
+}
+
+a{
+  color: white;
+  font-size:0.8rem;
+}
